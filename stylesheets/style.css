@@ -1,0 +1,18 @@
+
+.red{
+    color: hsl(0, 100%, 68%);
+}
+.dark-blue{
+    color: hsl(230, 29%, 20%);
+}
+
+.px-6{
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+.flex{
+    display: flex;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
