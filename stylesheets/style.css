@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
 body{
+    padding: 0px;
+    margin: 0px;
     font-size: 18px;
     font-weight: 400;
     font-family: Barlow, sans-serif;
@@ -51,8 +53,12 @@ body{
     justify-content: space-between;
 }
 .banner-img{
+    /* width: 100%; */
+    object-fit: cover;
+
+    object-position:0 100%;
     width: 100%;
-    
+    height: 20rem;
 }
 .label{
     background-color: hsl(230, 29%, 20%);
@@ -61,7 +67,7 @@ body{
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
     border-radius: 50px;
-    margin-right: 0.4rem;
+    margin-right: 0.3rem;
     color: hsl(207, 33%, 95%);
     /* padding-bottom  : 0.4rem; */
 }
@@ -81,4 +87,10 @@ body{
 
 .inline{
     display: inline;
+}
+.space{
+    letter-spacing: 0.4rem;
+}
+.space-normal{
+    letter-spacing: normal;
 }
