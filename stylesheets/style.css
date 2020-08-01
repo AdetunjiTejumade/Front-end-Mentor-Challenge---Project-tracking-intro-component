@@ -99,6 +99,11 @@ body{
 .space-normal{
     letter-spacing: normal;
 }
+/* Navbar large */
+.navbar a{
+    margin-left: 0.5rem;
+}
+/* Navbar active small screen */
 
 @media only screen and (min-width:760px){
     body{
@@ -121,7 +126,10 @@ body{
     }
     .md-pl-30{
         padding-left: 8rem;
-        /* padding-right: 6rem; */
+    }
+    .md-px-30{
+        padding-left: 8rem;
+        padding-right: 8rem;
     }
     .md-pt-12{
         padding-top: 4rem;
